@@ -9,7 +9,7 @@ elif salario <= 1500:
     reajuste = 10
     aumento = salario * 0.10
 else:    
-    reajuste = 5
+    reajuste = 10
     aumento = salario * 0.05
 novo_salario = salario + aumento
 print("Salário antes do reajuste: R$", salario)
